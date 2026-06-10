@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D WepSite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <img src="./photo/gradient.png" alt="gradient" class="image-gradient" />
+    <div class="layer-blur"></div>
+
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h1 class="logo" data-aos="fade-down" data-aos-duration="1500">
+          KCode
+        </h1>
+
+        <nav class="nav">
+          <a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a>
+          <a data-aos="fade-down" data-aos-duration="2000" href="#">FEATURES</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="#"
+            >RESOURCES</a
+          >
+          <a data-aos="fade-down" data-aos-duration="3000" href="#">DOCS</a>
+        </nav>
+
+        <button data-aos="fade-down" data-aos-duration="3500" class="btn">
+          SIGNING
+        </button>
+      </header>
+      <!-- Main -->
+      <main>
+        <div
+          class="content"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          data-aos-duration="1500"
+        >
+          <div class="tag-box">
+            <div class="tag">INTRUCING &</div>
+          </div>
+
+          <h1
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2000"
+          >
+            ENAIL FOR<br />DEVELOPERS
+          </h1>
+
+          <p
+            class="dictation"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2500"
+          >
+            the best way to reach unmans instead of spam folders, delver
+            transactional and marketing emails at scale.
+          </p>
+
+          <button
+            class="btn-content"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="3000"
+          >
+            <a href="#" class="btn-con-started">Documentation &gt;</a>
+            <a href="#" class="btn-con-End">Gestated &gt;</a>
+          </button>
+        </div>
+      </main>
+      <spline-viewer
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        data-aos-duration="3000"
+        class="robot-3d"
+        url="https://prod.spline.design/z4RpLofNlCf7SYbX/scene.splinecode"
+      ></spline-viewer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.12.97/build/spline-viewer.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
